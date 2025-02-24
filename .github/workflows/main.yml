@@ -1,0 +1,27 @@
+name: Run Selenium Tests
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # Exécute tous les jours à 18h00 UTC
+  push:
+    branches:
+      - main  # Exécute également lors des push sur la branche main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'  # Mettez à jour avec la version de Java que vous utilisez
+
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run Tests
+        run: mvn test
