@@ -14,7 +14,7 @@ public class LoginPageTest {
 		baseClass.setUp(); // Appel de la méthode setUp
 
 		// Naviguer vers l'URL de connexion
-		baseClass.navigateTo(); // Mettez à jour l'URL
+		//baseClass.navigateTo(); // Mettez à jour l'URL
 
 		// Accéder au WebDriver depuis baseTest
 		loginPage = new LoginPage(driver);

@@ -17,15 +17,18 @@ public class BaseClass {
 		WebDriverManager.edgedriver().setup();
 		// Initialisation du navigateur
 		driver = new EdgeDriver();
+		
+		driver.get("https://ecommercepractice.letskodeit.com/login/");
 
 		// Ouvrir la page de connexion
 
 		driver.manage().window().maximize();
 	}
 
-	public  void navigateTo() {
-		driver.get("https://ecommercepractice.letskodeit.com/login/");
-	}
+	/*
+	 * public void navigateTo() {
+	 * driver.get("https://ecommercepractice.letskodeit.com/login/"); }
+	 */
 
 	@AfterClass
 	public void tearDown() {

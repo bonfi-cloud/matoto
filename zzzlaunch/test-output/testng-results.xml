@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-23T22:58:50 CET" name="Default suite" finished-at="2025-02-23T22:58:57 CET" duration-ms="6899">
+  <suite started-at="2025-02-24T18:03:56 CET" name="Default suite" finished-at="2025-02-24T18:04:00 CET" duration-ms="4011">
     <groups>
     </groups>
-    <test started-at="2025-02-23T22:58:50 CET" name="Default test" finished-at="2025-02-23T22:58:57 CET" duration-ms="6899">
+    <test started-at="2025-02-24T18:03:56 CET" name="Default test" finished-at="2025-02-24T18:04:00 CET" duration-ms="4011">
       <class name="zzzlaunch.zzzlaunch.LoginPageTest">
-        <test-method signature="testLogin()[pri:0, instance:zzzlaunch.zzzlaunch.LoginPageTest@cecf639]" started-at="2025-02-23T22:58:50 CET" name="testLogin" finished-at="2025-02-23T22:58:57 CET" duration-ms="6864" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:zzzlaunch.zzzlaunch.LoginPageTest@1750fbeb]" started-at="2025-02-24T18:03:56 CET" name="testLogin" finished-at="2025-02-24T18:04:00 CET" duration-ms="3976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
