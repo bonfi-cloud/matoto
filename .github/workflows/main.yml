@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '8'  # Mettez à jour avec la version de Java que vous utilisez
-
+          distribution: 'adopt'  # Ou 'zulu', 'temurin', etc. selon vos besoins
       - name: Build with Maven
         run: mvn clean install
 
